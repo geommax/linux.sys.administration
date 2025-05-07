@@ -1,0 +1,122 @@
+Chapter(2)
+
+(1) Create files with name "dots_seasonX-episodeY.webm" Replace X with the numbers 1 and 2. Then, Replace Y with the numbers 1 through 8
+
+(2) To organize the movie episodes, create two subdirectories named season1 and season2 under the existing Videos directory. Use One command.
+
+(3) Move the appropriate MOVIES episodes into the season subdirectories. Use only two commands
+    Remove episode number 7 and 8 in the "season2" directory.
+
+(4) Create 12 books files with names "bestseller_chapterX.pdf".Replace X with 01 to 12
+
+(5) To organize the books chapter, create a two-level directory hierarchy with one command. Create "my_bestseller" under the existing Documents directory, and "chapters" beneath the new "my_bestseller" directory.
+
+(6) Create three more sub-directories under my_bestseller directory. Their names are editor,plotter and author.
+
+(7) Move the first two chapters of books to the editor directory for review.
+
+(8) Copy chapter 11 and 12 to the plotter directory.
+
+(9) Move the last books files to author directory.
+
+(10) Delete the chapter 11 and 12 files in the author directory.
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Chapter (3 and 4)
+
+
+(1) How can I know of the "passwd" command manual page?
+
+(2) Get the help for "ls" command and send the output to "outfiles.txt" under the existing Documents directory
+
+(3) Make a long listing and hidden contents in your home directory and save the output to the edit.txt
+
+(4) Open edit.txt with vim text editor
+
+(5) Delete the first three lines
+
+(6) Replace "Videos" words to "Movies"
+
+(7) Copy the Download rows and paste in the buttom of content.
+
+(8) Save and Exit
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Chapter(5)
+1. Create user with name greenman and must have home directory and it's UID(userid) is 3000
+2. Set the greenman password "defaults"
+3. Login it and exit.
+4. Change the shell(jobs) to /sbin/nologin.
+5. Create the next two user "sspade" and "david", set password "coconut" for them
+6. Make the /bin/bash shell to both sspade and david.
+7. Change userid for david to 2550 and 2551 for sspade.
+8. Add group with name "consultants" and set gid 1500.  
+9. add sspade and david to consultants group
+10. add "ateam" group with gid=6000.
+11. add user=appuser with home directory and password=appuser.
+12. add user=apkuser with NO home directory and password=apkuser.
+13. change userid=2500 for appuser and 2501 for apkuser too.
+14. delete ateam group.
+15. add group=developer gid=6000.
+16. add user=shakespeare with no home directory and it's job(shell) is /sbin/nologin.
+17. add user=juliet with home directory and password=juliet.
+18. login to juliet user account. 
+19. exit from juliet acc.
+20. delete the juliet account include it home directory.
+21. add appuser and shakespeare users to developer group.
+ .....................................................................................................
+	
+	 ....
+	|    |
+	|    |
+	|....|  ##############################################################
+	|    |
+	|    |
+	|____|
+
+
+
+		
+|||||||||||||||||||DELETE THE USER "david"|||||||||||||||||||||||||||
+
+
+
+
+Chapter(6)
+
+1. Create Desktop/mydata directory
+
+2. Add group "stooges" with gid(groupID) 1555 
+   Add group "instructors" and gid is 30000
+	
+3. Change group permissions on the Desktop/mydata directory so it belongs to the stooges group.
+
+4. Change owner permissions of Desktop/mydata to "root" owner
+
+5. Set the permission of Desktop/mydata read,write,execute for owner user and owner group. And read,execute only for other user
+
+6. Make "temp" directory on Desktop 
+
+7.This directory is owned by user root and group instructors
+
+
+chapter8_Service_Daemons
+
+1. install apache2 and openssh-server
+2. Display the status of the sshd service.
+3. Restart the sshd service  and view the status.
+4. Reload the sshd service and view the status
+5. Stop the sshd service and Reboot your machine. Then check the status of sshd service.
+6. Disable the httpd service so that it does not start at system boot, then view the status of the service.
+7. Reboot your machine and view status of httpd service again.
+
+
+
+
+
+
+
+
+
+
